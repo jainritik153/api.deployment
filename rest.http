@@ -1,12 +1,12 @@
 GET http://localhost:3000/products
 
 ###create product
-POST http://localhost:3000/products
+POST https://dry-cliffs-94427.herokuapp.com/products
 Content-Type:  application/json
 
 {
-    "name":"Mi 10",
-    "price":1800
+    "name":"sumil jain",
+    "price":180
 }
 
 ###get a product by id
