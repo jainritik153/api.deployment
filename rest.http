@@ -1,0 +1,23 @@
+GET http://localhost:3000/products
+
+###create product
+POST http://localhost:3000/products
+Content-Type:  application/json
+
+{
+    "name":"Mi 10",
+    "price":1800
+}
+
+###get a product by id
+GET http://localhost:3000/products/id
+
+###update a product by id
+PATCH http://localhost:3000/products/id
+
+###delete a product by id
+DELETE  http://localhost:3000/products/id
+
+###error route
+
+GET http://localhost:3000/productsdsfdsf
